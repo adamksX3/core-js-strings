@@ -434,7 +434,7 @@ function invertCase(str) {
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-  return `Hello, ${firstName.concat(' ', lastName)}!`;
+  return `Hello, ${firstName} ${lastName}!`;
 }
 
 /**
